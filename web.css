@@ -217,31 +217,31 @@ header .nav-link-item img {
 }
 
 /* Footer */
-footer {
-  background-color: #000 !important;
-}
-
-footer h5,
-footer h6 {
-  font-family: "Louis Vuitton Web", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-
-footer ul {
-  padding-left: 0; /* Remove default ul padding */
-}
-
-footer a {
-  color: #ccc; /* Lighter color for better readability */
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-footer a:hover {
-  color: #fff !important; /* White on hover for contrast */
-}
+ .lv-footer {
+      background-color: #fff;
+      padding: 40px 0;
+      font-family: Arial, sans-serif;
+      font-size: 0.9rem;
+      color: #1a1a1a;
+    }
+    .lv-footer a {
+      color: #080808;
+      text-decoration: none;
+    }
+   
+    .lv-footer .footer-heading {
+     
+      margin-bottom: 20px;
+      font-size: 1.05rem;
+    }
+    .lv-footer .footer-col ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .lv-footer .footer-col ul li {
+      margin-bottom: 12px;
+    }
 
 /* Women's Section Styling (to mimic LV's product display) */
 .lv-editorial-hub__grid {
@@ -467,4 +467,10 @@ footer a:hover {
   .lv-editorial-text-block__title {
     font-size: 1.5rem;
   }
+}
+#heading{
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 800;
+  font-family: "Louis Vuitton Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

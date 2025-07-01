@@ -90,7 +90,7 @@ header {
 
 /* LV Stories */
 .lv-stories {
-  background-color: #f5f5f5;
+  background-color: #8fd2ee;
 }
 
 .story-card {
@@ -115,7 +115,7 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  background: linear-gradient(to top, rgba(154, 211, 255, 0.8), transparent);
   color: white;
 }
 
